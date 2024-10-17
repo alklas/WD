@@ -59,45 +59,36 @@ p {
 	clear: both;
 }
 /* пользовательские стили  */
-/*
-img {
-	float: left;
-	margin: 10px;
+
+img.figure {
+	float: right;
+	margin: 15px;
 	border: 1px solid #666;
 	background-color: #CCC;
 	padding: 10px;
 }
-*/
+
 figure {
-	float: right;
+	float: left;
 	width: 222px;
 	margin: 15px 10px 5px 10px;
 }
-figure img {
+
+figure img { 
 	border: 1px solid #666;
 	background-color: #CCC;
 	padding: 10px;
 }
-figure figcaption {
+figcaption {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: bold;
 	color: #333;
 	text-align: center;
-	background-image: linear-gradient(to bottom, #E6F3FF, white);
+	background-image: linear-gradient(to bottom, #e6f3ff, white);
 	border: 1px dashed #666;
 	padding: 5px;
 	margin-top: -3px;
-}
-figure.pattern {
-	width: 250px;
-}
-figure.pattern img {
-	border: 1px solid #666;
-	
-}
-figure.pattern figcaption {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 

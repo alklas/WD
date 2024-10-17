@@ -36,11 +36,11 @@
     </figure>
   </div>
   <div class="gallery2">
-    <figure class="figure2">
+    <figure>
        <img src="../images/carpet.jpg" alt="Ковровое покрытие">
 	   <img src="../images/grass.jpg" alt="Натуральная трава">
 	   <img src="../images/bluegrass.jpg" alt="Голубой Кентукки">
-	   <img src="../images/leaves.jpg" alt="Тина африканская">
+	    <img src="../images/leaves.jpg" alt="Тина африканская">
       <figcaption > Рисунок 1: Даже обычный ковер иногда требует стрижки.</figcaption>
     </figure>
     <figure>

@@ -32,30 +32,14 @@ table {
 body {
 	font-size: 62.5%;
 }
+
 .content {
-	margin-left: 15px;
-	margin-top: 15px;
+	margin: 15px;
 	border: 1px dashed #999;
-	border-right: none;
 	border-bottom: none;
 }
-/*p.caption {
-	font-size: 1.3em;
-	line-height: normal;
-	margin-bottom: 15px;
-}
-*/
-.gallery .figure p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-	text-align: center;
-	line-height: normal;
-}
-
-
 h1 {
 	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
-	margin: 0;
 	border-bottom: 1px dashed #999;
 	padding: 5px 0 5px 8px;
 	color: #14556b;
@@ -69,60 +53,42 @@ p {
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #666666;
-	margin-left: 0px;
+	margin: 0px;
 	padding-left: 8px;
 	border-top: 1px dashed #999;
 	clear: both;
 }
+/* пользовательские стили  */
 
-.gallery figure img {
+img.figure {
+	float: right;
+	margin: 15px;
 	border: 1px solid #666;
-	background-color: white;
-	padding: 4px;
+	background-color: #CCC;
+	padding: 10px;
 }
 
-.gallery figcaption {
-	font: 1.1em Arial, Helvetica, sans-serif;
-	text-align: center;
-	margin: 10px 0 0 0;
-}
-
-.gallery figure {
+figure {
 	float: left;
-	width: 210px;
-	margin: 0 10px 10px 10px;
-	height: 260px;
-}
-.gallery2 {
-	clear: both;
-}
-.gallery2 figure {
-	display: inline-block;
-	vertical-align: top;
-	width: 210px;
-	margin: 0 10px 10px 10px;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
 }
 
-.gallery2 figure img {
+figure img { 
 	border: 1px solid #666;
-	background-color: white;
-	padding: 4px;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+	background-color: #CCC;
+	padding: 10px;
 }
-
-.gallery2 figcaption {
-	font: 1.1em Arial, Helvetica, sans-serif;
+figcaption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
 	font-weight: bold;
+	color: #333;
 	text-align: center;
-	margin: 10px 0 0 0;
+	background-image: linear-gradient(to bottom, #e6f3ff, white);
+	border: 1px dashed #666;
+	padding: 5px;
 }
 
-.gallery2 .figure2 img {
-	display: inline;
-	box-sizing: border-box;
-	width: 49%;
-	border: 1px solid #666;
-	background-color: white;
-	padding: 4px;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
-}
+
+
